@@ -185,6 +185,27 @@ input{
 textarea{
     background:#cec7c785;
 }
+/* Leaderboard Section  */
+.leaderboard-title{
+    font-size: 30px;
+}
+table, th, td, tr{
+    border-collapse: collapse;
+    border: 1px solid gray;
+    width:900px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+tr:nth-child(2n){
+    background-color:#E02C6D ;
+    color: #FFFFFF;
+}
+span{
+    font-size: 18px;
+    font-weight: 600;
+}
 /* footer styles */
 footer {
     display: flex;
@@ -277,6 +298,15 @@ footer {
     }
     .contact-img img{
         width:400px;
+    }
+    #leaderboad{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    table{
+        width: 350px;
     }
     footer img{
         width: 200px;
