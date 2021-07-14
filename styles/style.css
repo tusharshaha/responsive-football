@@ -1,0 +1,138 @@
+/* google font poppons */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* -----------------
+    Common Styles
+---------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1050px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+.btn{
+    padding: 10px 24px;
+    border: none;
+    font-weight: 500;
+    color: #FFFFFF;
+    background:#E02C6D;
+}
+.btn i{
+    margin: 0 8px;
+}
+a:hover {
+    transform: translate(0px, 10px);
+    transition: transform 1s;
+}
+
+/* header styles */
+header{
+    background: #2D25A0;
+    color: #FFFFFF;
+}
+.home-container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.home-banner:hover img{
+    transform: translate(-40px);
+    transition: transform 1s;
+}
+
+/* header navbar style  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.nav-items a{
+    color: #FFFFFF;
+}
+.nav-items a{
+    display: inline-block;
+    padding: 15px 18px;
+}
+
+
+
+/* header home banner section  */
+
+#home-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 0;
+
+}
+.home-banner h1{
+    font-size: 64px;
+    margin: 10px 0;
+}
+.home-banner img{
+    width: 100%;
+    height: 100%;
+}
+
+/* player styles */
+
+main{
+    padding-top: 70px;
+}
+#players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 27px 30px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player:hover{
+    transform: translate(0px, -15px );
+    transition: transform 0.7s;
+}
+
+.player-img img{
+    height: 256px;
+    width: 300px;
+}
+
+.player-text h3{
+    font-weight: bold;
+    font-size: 28px;
+    margin:10px 0px;
+
+}
+.player-text p{
+    color: #6C6C6C;
+    font-size: 1rem;
+    margin:10px 0px;
+}
+/* Match Section Style  */
+#players-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 40px;
+}
+.match-img img{
+    width: 567px;
+    height: 427px;
+}
